@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tecfront" name="TecFront Repository" version="1.0" provider-name="TecFront">
+	<extension point="xbmc.addon.repository" name="TecFront Repository">
+		<info compressed="false">https://raw.githubusercontent.com/bialagary/repository-tecfront/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/bialagary/repository-tecfront/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/bialagary/repository-tecfront/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repository of add-ons hosted by TecFront@GitHub.</summary>
+		<description>Download/install/update add-ons.!</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
